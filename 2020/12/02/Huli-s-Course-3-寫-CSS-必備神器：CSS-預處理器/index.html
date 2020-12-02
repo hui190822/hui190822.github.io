@@ -20,28 +20,37 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Pisces","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"./public/search.xml"};
   </script>
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Ally&#39;s Blog">
-<meta property="og:url" content="http://example.com/index.html">
+  <meta name="description" content="HW3- 寫 CSS 必備神器：CSS 預處理器tags: 前端Demohttps:&#x2F;&#x2F;hui190822.github.io&#x2F;frontend-intermediate-course&#x2F;answers&#x2F;hw3&#x2F;index.html  我們為什麼要認識CSS preprocessor預處理器呢 ? 1. 傳統CSS 由於傳統CSS沒有變數與可重複使用樣式的寫法，使得邏輯上相近的樣式設定常需要重複撰寫">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Huli&#39;s-Course-3- 寫 CSS 必備神器：CSS 預處理器">
+<meta property="og:url" content="http://example.com/2020/12/02/Huli-s-Course-3-%E5%AF%AB-CSS-%E5%BF%85%E5%82%99%E7%A5%9E%E5%99%A8%EF%BC%9ACSS-%E9%A0%90%E8%99%95%E7%90%86%E5%99%A8/index.html">
 <meta property="og:site_name" content="Ally&#39;s Blog">
+<meta property="og:description" content="HW3- 寫 CSS 必備神器：CSS 預處理器tags: 前端Demohttps:&#x2F;&#x2F;hui190822.github.io&#x2F;frontend-intermediate-course&#x2F;answers&#x2F;hw3&#x2F;index.html  我們為什麼要認識CSS preprocessor預處理器呢 ? 1. 傳統CSS 由於傳統CSS沒有變數與可重複使用樣式的寫法，使得邏輯上相近的樣式設定常需要重複撰寫">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://i.imgur.com/JTr08HQ.png">
+<meta property="article:published_time" content="2020-12-02T13:19:31.000Z">
+<meta property="article:modified_time" content="2020-12-02T13:21:50.938Z">
 <meta property="article:author" content="Ally Chen">
+<meta property="article:tag" content="前端">
+<meta property="article:tag" content="CSS">
+<meta property="article:tag" content="SCSS">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.imgur.com/JTr08HQ.png">
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2020/12/02/Huli-s-Course-3-%E5%AF%AB-CSS-%E5%BF%85%E5%82%99%E7%A5%9E%E5%99%A8%EF%BC%9ACSS-%E9%A0%90%E8%99%95%E7%90%86%E5%99%A8/">
 
 
 <script id="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
 
-  <title>Ally's Blog</title>
+  <title>Huli's-Course-3- 寫 CSS 必備神器：CSS 預處理器 | Ally's Blog</title>
   
 
 
@@ -183,9 +192,10 @@
         <div class="content-wrap">
           
 
-          <div class="content index posts-expand">
+          <div class="content post posts-expand">
             
-      
+
+    
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
@@ -201,10 +211,9 @@
       <meta itemprop="name" content="Ally's Blog">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/12/02/Huli-s-Course-3-%E5%AF%AB-CSS-%E5%BF%85%E5%82%99%E7%A5%9E%E5%99%A8%EF%BC%9ACSS-%E9%A0%90%E8%99%95%E7%90%86%E5%99%A8/" class="post-title-link" itemprop="url">Huli's-Course-3- 寫 CSS 必備神器：CSS 預處理器</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Huli's-Course-3- 寫 CSS 必備神器：CSS 預處理器
+        </h1>
 
         <div class="post-meta">
             <span class="post-meta-item">
@@ -237,7 +246,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h1 id="HW3-寫-CSS-必備神器：CSS-預處理器"><a href="#HW3-寫-CSS-必備神器：CSS-預處理器" class="headerlink" title="HW3- 寫 CSS 必備神器：CSS 預處理器"></a>HW3- 寫 CSS 必備神器：CSS 預處理器</h1><h6 id="tags-前端"><a href="#tags-前端" class="headerlink" title="tags: 前端"></a>tags: <code>前端</code></h6><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a target="_blank" rel="noopener" href="https://hui190822.github.io/frontend-intermediate-course/answers/hw3/index.html">https://hui190822.github.io/frontend-intermediate-course/answers/hw3/index.html</a></p>
+        <h1 id="HW3-寫-CSS-必備神器：CSS-預處理器"><a href="#HW3-寫-CSS-必備神器：CSS-預處理器" class="headerlink" title="HW3- 寫 CSS 必備神器：CSS 預處理器"></a>HW3- 寫 CSS 必備神器：CSS 預處理器</h1><h6 id="tags-前端"><a href="#tags-前端" class="headerlink" title="tags: 前端"></a>tags: <code>前端</code></h6><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a target="_blank" rel="noopener" href="https://hui190822.github.io/frontend-intermediate-course/answers/hw3/index.html">https://hui190822.github.io/frontend-intermediate-course/answers/hw3/index.html</a></p>
 <blockquote>
 <h2 id="我們為什麼要認識CSS-preprocessor預處理器呢"><a href="#我們為什麼要認識CSS-preprocessor預處理器呢" class="headerlink" title="我們為什麼要認識CSS preprocessor預處理器呢 ?"></a>我們為什麼要認識CSS preprocessor預處理器呢 ?</h2></blockquote>
 <h3 id="1-傳統CSS"><a href="#1-傳統CSS" class="headerlink" title="1. 傳統CSS"></a>1. 傳統CSS</h3><ul>
@@ -322,411 +331,35 @@
 <li><a target="_blank" rel="noopener" href="https://sass-lang.com/">SASS</a></li>
 </ul>
 
-      
     </div>
 
     
     
     
+
       <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
+          <div class="post-tags">
+              <a href="/tags/%E5%89%8D%E7%AB%AF/" rel="tag"># 前端</a>
+              <a href="/tags/CSS/" rel="tag"># CSS</a>
+              <a href="/tags/SCSS/" rel="tag"># SCSS</a>
+          </div>
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/25/Huli-s-Course-2-%E7%A5%9E%E5%A5%87%E7%9A%84-CSS-transition/">
+        
 
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Ally Chen">
-      <meta itemprop="description" content="">
-    </span>
 
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ally's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/25/Huli-s-Course-2-%E7%A5%9E%E5%A5%87%E7%9A%84-CSS-transition/" class="post-title-link" itemprop="url">Huli-s-Course-2-神奇的-CSS-transition</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2020-11-25 19:10:52 / Modified: 20:47:35" itemprop="dateCreated datePublished" datetime="2020-11-25T19:10:52+08:00">2020-11-25</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">前端課程</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="HW2-神奇的-CSS-transition"><a href="#HW2-神奇的-CSS-transition" class="headerlink" title="HW2-神奇的 CSS transition"></a>HW2-神奇的 CSS transition</h1><h6 id="tags-前端"><a href="#tags-前端" class="headerlink" title="tags: 前端"></a>tags: <code>前端</code></h6><p>示意圖：</p>
-<p><img src="https://i.imgur.com/PNw3t8B.gif"></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a target="_blank" rel="noopener" href="https://hui190822.github.io/frontend-intermediate-course/answers/hw2/index.html">https://hui190822.github.io/frontend-intermediate-course/answers/hw2/index.html</a></p>
-<h2 id="作業方法"><a href="#作業方法" class="headerlink" title="作業方法"></a>作業方法</h2><h3 id="1-filter"><a href="#1-filter" class="headerlink" title="1. filter"></a>1. filter</h3><table>
-<thead>
-<tr>
-<th>filter</th>
-<th>類似像ps的濾鏡效果，可使用filter屬性對網頁進行效果渲染。</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>使用方式</td>
-<td><code>div&#123; -webkit-filter: blur(3px) opacity(0.5);&#125;</code> 使用不同效果</td>
-</tr>
-</tbody></table>
-<ul>
-<li><strong>CSS Filters濾鏡效果共有十種特效，分別是：</strong><br>opacity 不透明<br>brightness 亮度<br>contrast 對比<br>blur 模糊<br>drop-shadow 下拉陰影<br>grayscale 灰階<br>sepia 懷舊<br>saturate 飽和<br>hue-rotate 色相旋轉<br>invert 負片</li>
-</ul>
-<ul>
-<li>instagram.css: <a target="_blank" rel="noopener" href="https://github.com/picturepan2/instagram.css">https://github.com/picturepan2/instagram.css</a></li>
-</ul>
-<h3 id="2-transition"><a href="#2-transition" class="headerlink" title="2. transition"></a>2. transition</h3><table>
-<thead>
-<tr>
-<th>transition</th>
-<th>轉場效果，讓網頁可以做動畫變化</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>使用方式</td>
-<td><code>transition: color 1s, box-shadow 2s;</code> 使用不同效果</td>
-</tr>
-<tr>
-<td><code>transition-property</code></td>
-<td>定義哪些 CSS properties 會被轉場效果影響</td>
-</tr>
-<tr>
-<td><code>transition-duration</code></td>
-<td>定義轉場所花費的時間</td>
-</tr>
-<tr>
-<td><code>transition-timing-function</code></td>
-<td>用來定義轉場發生的時間曲線</td>
-</tr>
-<tr>
-<td><code>transition-delay</code></td>
-<td>定義多久之後開始發生轉場</td>
-</tr>
-</tbody></table>
-<ul>
-<li>transition-timing-function: <a target="_blank" rel="noopener" href="https://cubic-bezier.com/#.17,.67,.83,.67">https://cubic-bezier.com/#.17,.67,.83,.67</a></li>
-<li><code>transition-delay: 1s</code> 會延遲1s開始動畫 &amp; 離開1s後結束動畫</li>
-</ul>
-<h2 id="參考來源"><a href="#參考來源" class="headerlink" title="參考來源"></a>參考來源</h2><ul>
-<li><a target="_blank" rel="noopener" href="https://css-tricks.com/almanac/properties/f/filter/">fiter</a></li>
-<li><a target="_blank" rel="noopener" href="http://blog.shihshih.com/css-filter/">filter效果</a></li>
-<li><a target="_blank" rel="noopener" href="https://developers.google.com/web/fundamentals/performance/rendering/">Web Fundamentals: Rendering performance</a></li>
-</ul>
-
-      
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/11/25/Huli-s-Course-2-%E7%A5%9E%E5%A5%87%E7%9A%84-CSS-transition/" rel="prev" title="Huli-s-Course-2-神奇的-CSS-transition">
+      <i class="fa fa-chevron-left"></i> Huli-s-Course-2-神奇的-CSS-transition
+    </a></div>
+      <div class="post-nav-item"></div>
     </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
       </footer>
+    
   </article>
   
   
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/24/2020-11-24-Huli-s-Course-1%EF%BD%9C%E5%9F%BA%E6%9C%AC-HTML-CSS%E7%B7%B4%E7%BF%92/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Ally Chen">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ally's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/24/2020-11-24-Huli-s-Course-1%EF%BD%9C%E5%9F%BA%E6%9C%AC-HTML-CSS%E7%B7%B4%E7%BF%92/" class="post-title-link" itemprop="url">2020-11-24-Huli's Course#1｜基本 HTML/CSS練習.md</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
-
-              <time title="Created: 2020-11-24 23:00:08 / Modified: 23:12:23" itemprop="dateCreated datePublished" datetime="2020-11-24T23:00:08+08:00">2020-11-24</time>
-            </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%89%8D%E7%AB%AF%E8%AA%B2%E7%A8%8B/" itemprop="url" rel="index"><span itemprop="name">前端課程</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="HW1-基本-HTML-CSS-練習：以-Twitch-為例"><a href="#HW1-基本-HTML-CSS-練習：以-Twitch-為例" class="headerlink" title="HW1 - 基本 HTML/CSS 練習：以 Twitch 為例"></a>HW1 - 基本 HTML/CSS 練習：以 Twitch 為例</h1><h6 id="tags-前端"><a href="#tags-前端" class="headerlink" title="tags: 前端"></a>tags: <code>前端</code></h6><p>示意圖：<br><img src="https://i.imgur.com/nhfV86M.gif"></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a target="_blank" rel="noopener" href="https://hui190822.github.io/frontend-intermediate-course/answers/hw1/index.html">https://hui190822.github.io/frontend-intermediate-course/answers/hw1/index.html</a></p>
-<h2 id="Git-Fork專案"><a href="#Git-Fork專案" class="headerlink" title="Git Fork專案"></a>Git Fork專案</h2><ol>
-<li><a target="_blank" rel="noopener" href="https://gitbook.tw/chapters/github/pull-request.html">Fork Open Source</a></li>
-<li><a target="_blank" rel="noopener" href="https://gitbook.tw/chapters/branch/using-branch.html">Git分支</a></li>
-</ol>
-<h2 id="作業方法"><a href="#作業方法" class="headerlink" title="作業方法"></a>作業方法</h2><h3 id="1-如何幫背景圖片加上一層半透明顏色的遮罩"><a href="#1-如何幫背景圖片加上一層半透明顏色的遮罩" class="headerlink" title="1. 如何幫背景圖片加上一層半透明顏色的遮罩 ?"></a>1. 如何幫背景圖片加上一層半透明顏色的遮罩 ?</h3><ul>
-<li><a target="_blank" rel="noopener" href="https://medium.com/@stephenlai2017/css-%E5%B9%AB%E8%83%8C%E6%99%AF%E5%9C%96%E5%8A%A0%E4%B8%8A%E4%B8%80%E5%B1%A4%E5%8D%8A%E9%80%8F%E6%98%8E%E9%A1%8F%E8%89%B2%E7%9A%84%E9%81%AE%E7%BD%A9-fa89c2fd6f07">CSS:幫背景圖加上一層半透明顏色的遮罩</a></li>
-<li>background-blend-mode: 背景圖片的混合模式<br>為CSS 屬性是針對背景圖片進行 (類似ps圖層混合模式效果)</li>
-<li>mix-blend-mode: 圖層混合模式<br>demo: <a target="_blank" rel="noopener" href="http://wcc723.github.io/WorkShop-gh-pages/cssBlendMode/">http://wcc723.github.io/WorkShop-gh-pages/cssBlendMode/</a></li>
-<li>linear-gradient<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"># 使用 background-blend-mode</span><br><span class="line">background-color: rgba(0, 0, 0, .5);</span><br><span class="line">background-image: url(..&#x2F;img&#x2F;bg-default.jpg);</span><br><span class="line">background-blend-mode: multiply;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># 使用 linear-gradient</span><br><span class="line">background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(..&#x2F;img&#x2F;bg-default.jpg); </span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<h3 id="2-flex排版置中方式"><a href="#2-flex排版置中方式" class="headerlink" title="2. flex排版置中方式"></a>2. flex排版置中方式</h3><ul>
-<li>需在多了解flex排版</li>
-<li>垂直置中方式: <a target="_blank" rel="noopener" href="https://ithelp.ithome.com.tw/users/20112550/ironman/2092">https://ithelp.ithome.com.tw/users/20112550/ironman/2092</a></li>
-<li><img src="https://i.imgur.com/ZvUbeNI.png"></li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">display: flex;</span><br><span class="line">justify-content: center;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<h2 id="自我練習"><a href="#自我練習" class="headerlink" title="自我練習"></a>自我練習</h2><h3 id="1-請問-CSS-的屬性position有哪幾種值？"><a href="#1-請問-CSS-的屬性position有哪幾種值？" class="headerlink" title="1. 請問 CSS 的屬性position有哪幾種值？"></a>1. 請問 CSS 的屬性position有哪幾種值？</h3><ul>
-<li>static /absolute /relative /fixed/</li>
-</ul>
-<h3 id="2-承上，請問那幾種值有哪些區別？請講出適合應用的地方。"><a href="#2-承上，請問那幾種值有哪些區別？請講出適合應用的地方。" class="headerlink" title="2. 承上，請問那幾種值有哪些區別？請講出適合應用的地方。"></a>2. 承上，請問那幾種值有哪些區別？請講出適合應用的地方。</h3><ul>
-<li>position: relative 相對定位</li>
-<li>position: absolute 絕對定位 (搭配相對定位父層)<br>  與搭配top/bottom/left/right屬性做位置變化</li>
-<li>position: fixed 的元素會相對於瀏覽器視窗來定位</li>
-</ul>
-<h3 id="3-display的三個值inline-block-inline-block有什麼異同？可以試著舉出幾個例子嗎？"><a href="#3-display的三個值inline-block-inline-block有什麼異同？可以試著舉出幾個例子嗎？" class="headerlink" title="3. display的三個值inline, block, inline-block有什麼異同？可以試著舉出幾個例子嗎？"></a>3. display的三個值inline, block, inline-block有什麼異同？可以試著舉出幾個例子嗎？</h3><ul>
-<li>display: inline為行內元素，不能設置寬高大小</li>
-<li>display: block為區塊元素，佔內容一行，可設置寬高</li>
-<li>display: inline-block為行內但有區塊形式，可設置寬高</li>
-</ul>
-<h3 id="4-有哪些-HTML-元素是-inline-哪些是-block？"><a href="#4-有哪些-HTML-元素是-inline-哪些是-block？" class="headerlink" title="4. 有哪些 HTML 元素是 inline, 哪些是 block？"></a>4. 有哪些 HTML 元素是 inline, 哪些是 block？</h3><ul>
-<li>每個HTML元素分為inline與block兩種屬性</li>
-<li>inline : span, img, a</li>
-<li>block : div, h1-h6, figure, p</li>
-</ul>
-<h3 id="5-當我設定一個元素的width為300px，並且padding設成10px之後，這個元素的寬度應該會是多少？"><a href="#5-當我設定一個元素的width為300px，並且padding設成10px之後，這個元素的寬度應該會是多少？" class="headerlink" title="5. 當我設定一個元素的width為300px，並且padding設成10px之後，這個元素的寬度應該會是多少？"></a>5. 當我設定一個元素的width為300px，並且padding設成10px之後，這個元素的寬度應該會是多少？</h3><ul>
-<li>元素width為320px (300+20px推內距)</li>
-<li>若有 <code>box-sizing: border-box;</code> 盒模型為300px</li>
-</ul>
-<h3 id="6-這次實作的畫面當頻道名稱字太多的時候，會超出一格的大小或者會直接被卡掉，有沒有辦法讓字太多的時候在尾巴顯示…？例如原本名稱叫做：「1234567」，顯示的時候變成：「12345…」？"><a href="#6-這次實作的畫面當頻道名稱字太多的時候，會超出一格的大小或者會直接被卡掉，有沒有辦法讓字太多的時候在尾巴顯示…？例如原本名稱叫做：「1234567」，顯示的時候變成：「12345…」？" class="headerlink" title="6. 這次實作的畫面當頻道名稱字太多的時候，會超出一格的大小或者會直接被卡掉，有沒有辦法讓字太多的時候在尾巴顯示…？例如原本名稱叫做：「1234567」，顯示的時候變成：「12345…」？"></a>6. 這次實作的畫面當頻道名稱字太多的時候，會超出一格的大小或者會直接被卡掉，有沒有辦法讓字太多的時候在尾巴顯示…？例如原本名稱叫做：「1234567」，顯示的時候變成：「12345…」？</h3><ul>
-<li>讓多行文字超出時自動隱藏，並出現…</li>
-<li> text-overflow: ellipsis</li>
-<li>codepen: <iframe src="https://codepen.io/hui190822/embed/jOroQqp?height=95&theme-id=dark&default-tab=css,result" width="100%" height="300" frameborder="0" loading="lazy" allowfullscreen></iframe> 
-
-</li>
-</ul>
-<h2 id="參考來源"><a href="#參考來源" class="headerlink" title="參考來源"></a>參考來源</h2><ol>
-<li><a target="_blank" rel="noopener" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">A Complete Guide to Flexbox</a></li>
-<li><a target="_blank" rel="noopener" href="https://zh-tw.learnlayout.com/flexbox.html">學習 CSS 版面配置: flexbox</a></li>
-<li><a target="_blank" rel="noopener" href="https://www.oxxostudio.tw/articles/201501/css-flexbox.html">深入解析 CSS Flexbox</a></li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2020/11/15/2020-11-15-Markdown%20%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Ally Chen">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Ally's Blog">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/15/2020-11-15-Markdown%20%E5%A6%82%E4%BD%95%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/" class="post-title-link" itemprop="url">Markdown 如何快速上手</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">Posted on</span>
-
-              <time title="Created: 2020-11-15 17:50:30" itemprop="dateCreated datePublished" datetime="2020-11-15T17:50:30+08:00">2020-11-15</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">Edited on</span>
-                <time title="Modified: 2020-11-24 22:52:38" itemprop="dateModified" datetime="2020-11-24T22:52:38+08:00">2020-11-24</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">In</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/%E5%B7%A5%E5%85%B7%E5%AD%B8%E7%BF%92/" itemprop="url" rel="index"><span itemprop="name">工具學習</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="如何快速上手Markdown"><a href="#如何快速上手Markdown" class="headerlink" title="如何快速上手Markdown"></a>如何快速上手Markdown</h1><h6 id="tags-markdown筆記"><a href="#tags-markdown筆記" class="headerlink" title="tags: markdown筆記"></a>tags: <code>markdown筆記</code></h6><h3 id="1-Markdown-動機"><a href="#1-Markdown-動機" class="headerlink" title="1. Markdown 動機"></a>1. Markdown 動機</h3><blockquote>
-<p><strong>Markdown是一種輕量級標記語言</strong>，創始人為 John Gruber。它允許人們「使用易讀易寫的純文本格式編寫文檔，然後轉換成有效的 XHTML 或者 HTML文檔」。一份使用 Markdown 格式撰寫的文件應該可以直接以純文字發佈，並且看起來不會像是由許多標籤或是格式指令所構成。</p>
-</blockquote>
-<p>2019年從工程師自學文章認識到Markdown，發現介面與coding有點像，覺得很酷 XD<br>現在決定將Markdown使用方法記錄下來，將自己筆記用md記錄，文章留給自己查閱~與大家一起參考使用 :heart: </p>
-<h3 id="2-Mardown-常用快捷鍵"><a href="#2-Mardown-常用快捷鍵" class="headerlink" title="2. Mardown 常用快捷鍵"></a>2. Mardown 常用快捷鍵</h3><ul>
-<li><p><strong>Highlight 畫重點</strong></p>
-  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">method:   &#x3D;&#x3D; Highlight &#x3D;&#x3D;  </span><br></pre></td></tr></table></figure></li>
-<li><p><strong>標題 h1~h6</strong></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"># h1大標</span><br><span class="line">## h2 中標</span><br></pre></td></tr></table></figure></li>
-<li><p><strong>清單 無序-星號 / 有序 - 數字</strong></p>
-</li>
-<li><p>List     </p>
-<ul>
-<li>List      <ul>
-<li>List</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">*  List         </span><br><span class="line">(空格*2) *List</span><br><span class="line">(空格*4) * List</span><br></pre></td></tr></table></figure>
-<ul>
-<li><strong>程式碼區塊</strong><ul>
-<li> 程式碼 <code>Code</code> (`中間包文字ˋ)</li>
-<li> 程式碼區塊 (3個`換行，中間包文字)</li>
-</ul>
-</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#96; code &#96;</span><br><span class="line">&#96;&#96;&#96;  </span><br><span class="line">Block  </span><br><span class="line">&#96;&#96;&#96; </span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><strong>強調語法</strong></li>
-<li>斜體 <em>Italic</em> &nbsp;&nbsp; <code>*Italic*</code></li>
-<li>粗體 <strong>Bold</strong> &nbsp;&nbsp; <code>**Bold**</code></li>
-<li>刪除線 <del>Done</del> &nbsp;&nbsp; <code>~~Done~~</code></li>
-<li>劃重點  &nbsp;&nbsp;<code>==Highlight==</code></li>
-</ul>
-<h3 id="3-補充說明"><a href="#3-補充說明" class="headerlink" title="3. 補充說明"></a>3. 補充說明</h3><ul>
-<li>表格</li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>輸入</th>
-<th>建立新表格<code>(鍵盤按下 shift + \)</code></th>
-</tr>
-</thead>
-</table>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://gretema.github.io/hexo/20191217/2656253328/">Hexo Next 嵌入codepen方式</a></li>
-</ul>
-<table>
-<thead>
-<tr>
-<th>hexo iframe</th>
-<th>在文章中插入 iframe <code>&#123;% iframe url [width] [height] %&#125;</code></th>
-</tr>
-</thead>
-<tbody><tr>
-<td>Codepen</td>
-<td>Embed copy <code>&lt;iframe&gt; 的 src 值取出來，放到 iframe 語法的 url 位置， [width] 跟 [height] 都去掉。</code></td>
-</tr>
-</tbody></table>
-<iframe src="https://codepen.io/hui190822/embed/jOroQqp?height=95&theme-id=dark&default-tab=css,result" width="100%" height="300" frameborder="0" loading="lazy" allowfullscreen></iframe>
-
-<p><strong>參考來源</strong></p>
-<ul>
-<li><a target="_blank" rel="noopener" href="https://medium.com/vhs-design-vitamin-for-creative-mind/markdown-67b0706e6005#aace">https://medium.com/vhs-design-vitamin-for-creative-mind/markdown-67b0706e6005#aace</a></li>
-<li><a target="_blank" rel="noopener" href="https://hexo.io/zh-tw/docs/tag-plugins">https://hexo.io/zh-tw/docs/tag-plugins</a></li>
-</ul>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-
   
 
 
@@ -779,6 +412,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#HW3-%E5%AF%AB-CSS-%E5%BF%85%E5%82%99%E7%A5%9E%E5%99%A8%EF%BC%9ACSS-%E9%A0%90%E8%99%95%E7%90%86%E5%99%A8"><span class="nav-number">1.</span> <span class="nav-text">HW3- 寫 CSS 必備神器：CSS 預處理器</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#tags-%E5%89%8D%E7%AB%AF"><span class="nav-number">1.0.0.0.0.1.</span> <span class="nav-text">tags: 前端</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Demo"><span class="nav-number">1.1.</span> <span class="nav-text">Demo</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%88%91%E5%80%91%E7%82%BA%E4%BB%80%E9%BA%BC%E8%A6%81%E8%AA%8D%E8%AD%98CSS-preprocessor%E9%A0%90%E8%99%95%E7%90%86%E5%99%A8%E5%91%A2"><span class="nav-number">1.2.</span> <span class="nav-text">我們為什麼要認識CSS preprocessor預處理器呢 ?</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E5%82%B3%E7%B5%B1CSS"><span class="nav-number">1.2.1.</span> <span class="nav-text">1. 傳統CSS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-CSS%E9%A0%90%E8%99%95%E7%90%86%E5%99%A8"><span class="nav-number">1.2.2.</span> <span class="nav-text">2. CSS預處理器</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8B%E7%B4%B9SASS-SCSS"><span class="nav-number">1.3.</span> <span class="nav-text">介紹SASS&#x2F;SCSS</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%AE%8A%E6%95%B8-Variable"><span class="nav-number">1.3.1.</span> <span class="nav-text">變數 (Variable) $</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E7%B9%BC%E6%89%BF-Extend-extend"><span class="nav-number">1.3.2.</span> <span class="nav-text">繼承 (Extend) @extend</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%87%BD%E5%BC%8F-Function-function"><span class="nav-number">1.3.3.</span> <span class="nav-text">函式 (Function) @function</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B7%B7%E7%94%A8-Mixin-mixin"><span class="nav-number">1.3.4.</span> <span class="nav-text">混用 (Mixin) @mixin</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%A3%9C%E5%85%85%E8%AA%AA%E6%98%8E"><span class="nav-number">1.3.5.</span> <span class="nav-text">補充說明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%83%E8%80%83%E8%B3%87%E6%96%99"><span class="nav-number">1.3.6.</span> <span class="nav-text">參考資料</span></a></li></ol></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
