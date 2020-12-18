@@ -7,6 +7,7 @@
 <p><strong>Markdown是一種輕量級標記語言</strong>，創始人為 John Gruber。它允許人們「使用易讀易寫的純文本格式編寫文檔，然後轉換成有效的 XHTML 或者 HTML文檔」。一份使用 Markdown 格式撰寫的文件應該可以直接以純文字發佈，並且看起來不會像是由許多標籤或是格式指令所構成。</p>
 </blockquote>
 <p>2019年從工程師自學文章認識到Markdown，發現介面與coding有點像，覺得很酷 XD<br>現在決定將Markdown使用方法記錄下來，將自己筆記用md記錄，文章留給自己查閱~與大家一起參考使用 :heart: </p>
+<a id="more"></a>
 <h3 id="2-Mardown-常用快捷鍵"><a href="#2-Mardown-常用快捷鍵" class="headerlink" title="2. Mardown 常用快捷鍵"></a>2. Mardown 常用快捷鍵</h3><ul>
 <li><p><strong>Highlight 畫重點</strong></p>
   <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">method:   &#x3D;&#x3D; Highlight &#x3D;&#x3D;  </span><br></pre></td></tr></table></figure></li>
@@ -82,76 +83,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Huli-s-Course-2-神奇的-CSS-transition</title>
-    <url>/2020/11/25/Huli-s-Course-2-%E7%A5%9E%E5%A5%87%E7%9A%84-CSS-transition/</url>
-    <content><![CDATA[<h1 id="HW2-神奇的-CSS-transition"><a href="#HW2-神奇的-CSS-transition" class="headerlink" title="HW2-神奇的 CSS transition"></a>HW2-神奇的 CSS transition</h1><h6 id="tags-前端"><a href="#tags-前端" class="headerlink" title="tags: 前端"></a>tags: <code>前端</code></h6><p>示意圖：</p>
-<p><img src="https://i.imgur.com/PNw3t8B.gif"></p>
-<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://hui190822.github.io/frontend-intermediate-course/answers/hw2/index.html">https://hui190822.github.io/frontend-intermediate-course/answers/hw2/index.html</a></p>
-<h2 id="作業方法"><a href="#作業方法" class="headerlink" title="作業方法"></a>作業方法</h2><h3 id="1-filter"><a href="#1-filter" class="headerlink" title="1. filter"></a>1. filter</h3><table>
-<thead>
-<tr>
-<th>filter</th>
-<th>類似像ps的濾鏡效果，可使用filter屬性對網頁進行效果渲染。</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>使用方式</td>
-<td><code>div&#123; -webkit-filter: blur(3px) opacity(0.5);&#125;</code> 使用不同效果</td>
-</tr>
-</tbody></table>
-<ul>
-<li><strong>CSS Filters濾鏡效果共有十種特效，分別是：</strong><br>opacity 不透明<br>brightness 亮度<br>contrast 對比<br>blur 模糊<br>drop-shadow 下拉陰影<br>grayscale 灰階<br>sepia 懷舊<br>saturate 飽和<br>hue-rotate 色相旋轉<br>invert 負片</li>
-</ul>
-<ul>
-<li>instagram.css: <a href="https://github.com/picturepan2/instagram.css">https://github.com/picturepan2/instagram.css</a></li>
-</ul>
-<h3 id="2-transition"><a href="#2-transition" class="headerlink" title="2. transition"></a>2. transition</h3><table>
-<thead>
-<tr>
-<th>transition</th>
-<th>轉場效果，讓網頁可以做動畫變化</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>使用方式</td>
-<td><code>transition: color 1s, box-shadow 2s;</code> 使用不同效果</td>
-</tr>
-<tr>
-<td><code>transition-property</code></td>
-<td>定義哪些 CSS properties 會被轉場效果影響</td>
-</tr>
-<tr>
-<td><code>transition-duration</code></td>
-<td>定義轉場所花費的時間</td>
-</tr>
-<tr>
-<td><code>transition-timing-function</code></td>
-<td>用來定義轉場發生的時間曲線</td>
-</tr>
-<tr>
-<td><code>transition-delay</code></td>
-<td>定義多久之後開始發生轉場</td>
-</tr>
-</tbody></table>
-<ul>
-<li>transition-timing-function: <a href="https://cubic-bezier.com/#.17,.67,.83,.67">https://cubic-bezier.com/#.17,.67,.83,.67</a></li>
-<li><code>transition-delay: 1s</code> 會延遲1s開始動畫 &amp; 離開1s後結束動畫</li>
-</ul>
-<h2 id="參考來源"><a href="#參考來源" class="headerlink" title="參考來源"></a>參考來源</h2><ul>
-<li><a href="https://css-tricks.com/almanac/properties/f/filter/">fiter</a></li>
-<li><a href="http://blog.shihshih.com/css-filter/">filter效果</a></li>
-<li><a href="https://developers.google.com/web/fundamentals/performance/rendering/">Web Fundamentals: Rendering performance</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>前端課程</category>
-      </categories>
-      <tags>
-        <tag>前端</tag>
-        <tag>transition</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2020-11-24-Huli&#39;s Course#1｜基本 HTML/CSS練習.md</title>
     <url>/2020/11/24/2020-11-24-Huli-s-Course-1%EF%BD%9C%E5%9F%BA%E6%9C%AC-HTML-CSS%E7%B7%B4%E7%BF%92/</url>
     <content><![CDATA[<h1 id="HW1-基本-HTML-CSS-練習：以-Twitch-為例"><a href="#HW1-基本-HTML-CSS-練習：以-Twitch-為例" class="headerlink" title="HW1 - 基本 HTML/CSS 練習：以 Twitch 為例"></a>HW1 - 基本 HTML/CSS 練習：以 Twitch 為例</h1><h6 id="tags-前端"><a href="#tags-前端" class="headerlink" title="tags: 前端"></a>tags: <code>前端</code></h6><p>示意圖：<br><img src="https://i.imgur.com/nhfV86M.gif"></p>
@@ -160,6 +91,8 @@
 <li><a href="https://gitbook.tw/chapters/github/pull-request.html">Fork Open Source</a></li>
 <li><a href="https://gitbook.tw/chapters/branch/using-branch.html">Git分支</a></li>
 </ol>
+<a id="more"></a>
+
 <h2 id="作業方法"><a href="#作業方法" class="headerlink" title="作業方法"></a>作業方法</h2><h3 id="1-如何幫背景圖片加上一層半透明顏色的遮罩"><a href="#1-如何幫背景圖片加上一層半透明顏色的遮罩" class="headerlink" title="1. 如何幫背景圖片加上一層半透明顏色的遮罩 ?"></a>1. 如何幫背景圖片加上一層半透明顏色的遮罩 ?</h3><ul>
 <li><a href="https://medium.com/@stephenlai2017/css-%E5%B9%AB%E8%83%8C%E6%99%AF%E5%9C%96%E5%8A%A0%E4%B8%8A%E4%B8%80%E5%B1%A4%E5%8D%8A%E9%80%8F%E6%98%8E%E9%A1%8F%E8%89%B2%E7%9A%84%E9%81%AE%E7%BD%A9-fa89c2fd6f07">CSS:幫背景圖加上一層半透明顏色的遮罩</a></li>
 <li>background-blend-mode: 背景圖片的混合模式<br>為CSS 屬性是針對背景圖片進行 (類似ps圖層混合模式效果)</li>
@@ -219,13 +152,14 @@
   </entry>
   <entry>
     <title>Huli&#39;s-Course-3- 寫 CSS 必備神器：CSS 預處理器</title>
-    <url>/2020/12/02/Huli-s-Course-3-%E5%AF%AB-CSS-%E5%BF%85%E5%82%99%E7%A5%9E%E5%99%A8%EF%BC%9ACSS-%E9%A0%90%E8%99%95%E7%90%86%E5%99%A8/</url>
+    <url>/2020/12/02/%E3%80%90CSS%E3%80%91%E5%AF%AB-CSS%E5%BF%85%E5%82%99%E7%A5%9E%E5%99%A8%EF%BC%9ACSS-%E9%A0%90%E8%99%95%E7%90%86%E5%99%A8/</url>
     <content><![CDATA[<h1 id="HW3-寫-CSS-必備神器：CSS-預處理器"><a href="#HW3-寫-CSS-必備神器：CSS-預處理器" class="headerlink" title="HW3- 寫 CSS 必備神器：CSS 預處理器"></a>HW3- 寫 CSS 必備神器：CSS 預處理器</h1><h6 id="tags-前端"><a href="#tags-前端" class="headerlink" title="tags: 前端"></a>tags: <code>前端</code></h6><h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://hui190822.github.io/frontend-intermediate-course/answers/hw3/index.html">https://hui190822.github.io/frontend-intermediate-course/answers/hw3/index.html</a></p>
 <blockquote>
 <h2 id="我們為什麼要認識CSS-preprocessor預處理器呢"><a href="#我們為什麼要認識CSS-preprocessor預處理器呢" class="headerlink" title="我們為什麼要認識CSS preprocessor預處理器呢 ?"></a>我們為什麼要認識CSS preprocessor預處理器呢 ?</h2></blockquote>
 <h3 id="1-傳統CSS"><a href="#1-傳統CSS" class="headerlink" title="1. 傳統CSS"></a>1. 傳統CSS</h3><ul>
 <li>由於傳統CSS沒有變數與可重複使用樣式的寫法，使得邏輯上相近的樣式設定常需要重複撰寫，導致維護性較差。</li>
-<li>在模組化開發時，不能採用嵌套（nested）的寫法，導致需要寫很多重複的選擇器。<h3 id="2-CSS預處理器"><a href="#2-CSS預處理器" class="headerlink" title="2. CSS預處理器"></a>2. CSS預處理器</h3></li>
+<li>在模組化開發時，不能採用嵌套（nested）的寫法，導致需要寫很多重複的選擇器。<a id="more"></a>
+<h3 id="2-CSS預處理器"><a href="#2-CSS預處理器" class="headerlink" title="2. CSS預處理器"></a>2. CSS預處理器</h3></li>
 </ul>
 <p>若是能讓 CSS 像一般程式語言一樣，出現巢狀、變數、函式、迴圈等功能提前設置，讓你不怕業主總想從顏色A-&gt; B-&gt; C都修改看看，然後再回去A的選項 QQ</p>
 <ul>
@@ -312,6 +246,240 @@
         <tag>前端</tag>
         <tag>CSS</tag>
         <tag>SCSS</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Huli-s-Course-2-神奇的-CSS-transition</title>
+    <url>/2020/11/25/%E3%80%90CSS%E3%80%91%E7%A5%9E%E5%A5%87%E7%9A%84-CSS-transition/</url>
+    <content><![CDATA[<h1 id="HW2-神奇的-CSS-transition"><a href="#HW2-神奇的-CSS-transition" class="headerlink" title="HW2-神奇的 CSS transition"></a>HW2-神奇的 CSS transition</h1><h6 id="tags-前端"><a href="#tags-前端" class="headerlink" title="tags: 前端"></a>tags: <code>前端</code></h6><p>示意圖：</p>
+<p><img src="https://i.imgur.com/PNw3t8B.gif"></p>
+<h2 id="Demo"><a href="#Demo" class="headerlink" title="Demo"></a>Demo</h2><p><a href="https://hui190822.github.io/frontend-intermediate-course/answers/hw2/index.html">https://hui190822.github.io/frontend-intermediate-course/answers/hw2/index.html</a></p>
+<h2 id="作業方法"><a href="#作業方法" class="headerlink" title="作業方法"></a>作業方法</h2><h3 id="1-filter"><a href="#1-filter" class="headerlink" title="1. filter"></a>1. filter</h3><table>
+<thead>
+<tr>
+<th>filter</th>
+<th>類似像ps的濾鏡效果，可使用filter屬性對網頁進行效果渲染。</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>使用方式</td>
+<td><code>div&#123; -webkit-filter: blur(3px) opacity(0.5);&#125;</code> 使用不同效果</td>
+</tr>
+</tbody></table>
+<a id="more"></a>
+<ul>
+<li><strong>CSS Filters濾鏡效果共有十種特效，分別是：</strong><br>opacity 不透明<br>brightness 亮度<br>contrast 對比<br>blur 模糊<br>drop-shadow 下拉陰影<br>grayscale 灰階<br>sepia 懷舊<br>saturate 飽和<br>hue-rotate 色相旋轉<br>invert 負片</li>
+</ul>
+<ul>
+<li>instagram.css: <a href="https://github.com/picturepan2/instagram.css">https://github.com/picturepan2/instagram.css</a></li>
+</ul>
+<h3 id="2-transition"><a href="#2-transition" class="headerlink" title="2. transition"></a>2. transition</h3><table>
+<thead>
+<tr>
+<th>transition</th>
+<th>轉場效果，讓網頁可以做動畫變化</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>使用方式</td>
+<td><code>transition: color 1s, box-shadow 2s;</code> 使用不同效果</td>
+</tr>
+<tr>
+<td><code>transition-property</code></td>
+<td>定義哪些 CSS properties 會被轉場效果影響</td>
+</tr>
+<tr>
+<td><code>transition-duration</code></td>
+<td>定義轉場所花費的時間</td>
+</tr>
+<tr>
+<td><code>transition-timing-function</code></td>
+<td>用來定義轉場發生的時間曲線</td>
+</tr>
+<tr>
+<td><code>transition-delay</code></td>
+<td>定義多久之後開始發生轉場</td>
+</tr>
+</tbody></table>
+<ul>
+<li>transition-timing-function: <a href="https://cubic-bezier.com/#.17,.67,.83,.67">https://cubic-bezier.com/#.17,.67,.83,.67</a></li>
+<li><code>transition-delay: 1s</code> 會延遲1s開始動畫 &amp; 離開1s後結束動畫</li>
+</ul>
+<h2 id="參考來源"><a href="#參考來源" class="headerlink" title="參考來源"></a>參考來源</h2><ul>
+<li><a href="https://css-tricks.com/almanac/properties/f/filter/">fiter</a></li>
+<li><a href="http://blog.shihshih.com/css-filter/">filter效果</a></li>
+<li><a href="https://developers.google.com/web/fundamentals/performance/rendering/">Web Fundamentals: Rendering performance</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>前端課程</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>transition</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>【Git】關於Git指令 &amp; 創建Github Page網頁</title>
+    <url>/2020/12/18/%E3%80%90Git%E3%80%91%E9%97%9C%E6%96%BCGit%E6%8C%87%E4%BB%A4-%E5%89%B5%E5%BB%BAGithub-Page%E7%B6%B2%E9%A0%81/</url>
+    <content><![CDATA[<h3 id="一-command-line-指令"><a href="#一-command-line-指令" class="headerlink" title="(一) command line 指令"></a>(一) command line 指令</h3><ul>
+<li><p>命令提示字元，簡稱cmd，Terminal，有別於使用GUI(圖形使用者介面)。<br>使用文字一行一行對電腦下指令，使電腦去執行動作。<br>有新增cmder工具輔助，cmder工具可以仿Linux環境下使用cmd。</p>
+<ul>
+<li>ls : list 顯示 (ls -al 顯示全部)</li>
+<li>cd : change directory 切換 (cd..回上一層)</li>
+<li>mkdir : make directory 新增資料夾</li>
+<li>dir : 顯示檔案清單以列出目錄中的檔案及子目錄</li>
+<li>move : <code>move *.md folder url</code></li>
+</ul>
+</li>
+</ul>
+<a id="more"></a>
+<h3 id="二-你知道-Git-在做什麼，以及為何我們需要-Git"><a href="#二-你知道-Git-在做什麼，以及為何我們需要-Git" class="headerlink" title="(二) 你知道 Git 在做什麼，以及為何我們需要 Git?"></a>(二) 你知道 Git 在做什麼，以及為何我們需要 Git?</h3><ul>
+<li>因為手上可能會新增rs1, rs2, rs3…rs100的更新檔案，這100個檔案你會忘記之間的差異在哪，不同版本不同在哪裡。<br>這裡就需要版本控制工具，讓你知道差異在哪裡，或是在別人合作專案，更新,衝突,新增,合併在哪。<br>Git屬於分散式版本控管系統，有遠端server和本機操作，可以將github做為遠端server。</li>
+</ul>
+<h3 id="三-Git-指令"><a href="#三-Git-指令" class="headerlink" title="(三)  Git 指令"></a>(三)  Git 指令</h3><ul>
+<li>add : 新增修改檔案，進入index索引狀態 <ul>
+<li>git add .新增全部檔案</li>
+<li>git rm –cached filename : 後悔加入</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li> status : 確認git狀態</li>
+</ul>
+<ul>
+<li>commit -m : 記得提交到本機資料庫 &amp; 一併註解<ul>
+<li>git commit –amend : 可修改 commit message</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li> push : 推送commit到遠端資料庫</li>
+<li> pull : 從遠端拉回新增的資料</li>
+<li> log : 檢視提交的歷史記錄</li>
+<li> init : 初始化git，創建local git儲存庫。</li>
+<li>.gitignore<ul>
+<li>可將不想放入版本控制的檔案加入，例如帳號密碼或系統設定檔</li>
+<li>touch .gitignore</li>
+<li>將檔案名稱寫入 .gitignore</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>git diff<ul>
+<li>可以看到在上次commit和這次commit之間修改過什麼檔案</li>
+</ul>
+</li>
+<li>git reset<ul>
+<li>commit 可是後悔了，可以使用 git reset 回到還沒 commit 之前</li>
+<li>指令：git reset HEAD^</li>
+<li>有三種模式可選：soft、mixed、hard，預設值是 mixed，下指令時可不必附註模式。<a href="https://ithelp.ithome.com.tw/articles/10187303">看更多了解三種模式差異</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="四-你知道怎麼使用-branch-並送出-Pull-Request"><a href="#四-你知道怎麼使用-branch-並送出-Pull-Request" class="headerlink" title="(四) 你知道怎麼使用 branch 並送出 Pull Request?"></a>(四) 你知道怎麼使用 branch 並送出 Pull Request?</h3><ul>
+<li>git branch -d 先切換到master，刪除分支</li>
+</ul>
+<blockquote>
+<p>出現error: The branch ‘cat’ is not fully merged.<br>If you are sure you want to delete it, run ‘git branch -D cat’.<br>改用 -D 參數就可以強制刪除</p>
+</blockquote>
+<h3 id="五-你熟悉-Git-Workflow"><a href="#五-你熟悉-Git-Workflow" class="headerlink" title="(五) 你熟悉 Git Workflow?"></a>(五) 你熟悉 Git Workflow?</h3><ul>
+<li>(a.)    本地上傳遠端</li>
+</ul>
+<ol>
+<li>   mkdir 創新資料夾</li>
+<li>   Git init 初始化這個目錄，讓 Git 對這個目錄開始進行版控<br><code>工作目錄 Working Directory</code></li>
+<li>   Git status 確認git狀態</li>
+<li>   Git add file / <strong>git add .新增全部檔案到暫存區</strong></li>
+<li>   Git commit  –m “xxxx” 提交 &amp;  commit note</li>
+<li>   Git remote add origin <code>(http)(SSH key)</code></li>
+<li>   Git push –u origin master</li>
+</ol>
+<p>-u 表示推送 &amp; 一起設定upstream，預設去追蹤遠端<br>之後可以打git push</p>
+<ul>
+<li>(b.)     遠端連結到本機</li>
+</ul>
+<ol>
+<li>   Github new repository</li>
+<li>   本機cmd  <code>git clone</code></li>
+</ol>
+<ul>
+<li>(c.) git clone 後，更新遠端資料庫內容後，才在local mkdir當工作目錄</li>
+</ul>
+<ol>
+<li><p>   本機沒有與遠端server同步更新，<strong>local cmd出現git push error</strong></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git push</span><br><span class="line">To https:&#x2F;&#x2F;github.com&#x2F;eddiekao&#x2F;dummy-git.git</span><br><span class="line"> ! [rejected]        master -&gt; master (fetch first)</span><br><span class="line">error: failed to push some refs to &#39;https:&#x2F;&#x2F;github.com&#x2F;eddiekao&#x2F;dummy-git.git&#39;</span><br></pre></td></tr></table></figure>
+<p>☛ git pull –rebase origin master，先將remote拉回local<br>☛ git push -u origin master</p>
+</li>
+<li><p>   git clone 如何更新到本機的工作目錄 ?<br>follow git workflow</p>
+</li>
+</ol>
+<h3 id="如何建立-Github-Pages"><a href="#如何建立-Github-Pages" class="headerlink" title="如何建立 Github Pages"></a>如何建立 Github Pages</h3><ul>
+<li>靜態網站<ul>
+<li>主分支 (每個人帳號只限制一個)<ul>
+<li> { 帳號 }.github.io/</li>
+</ul>
+</li>
+<li>次分支 (沒有限制~主要在 gh-pages)<ul>
+<li> { 帳號 }.github.io/(自己設定的專案名稱)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>建站步驟<br>(一) 上傳路徑 master</li>
+</ul>
+<ol>
+<li><p>Create a new repository<br><img src="https://i.imgur.com/DIpi0Nb.png"><br><img src="https://i.imgur.com/Gs2rtgN.png"></p>
+</li>
+<li><p>用cmd git init (把儲存庫建立起來，git 開始初始化本地儲存庫)</p>
+<ul>
+<li>注意的點在windows下系統預設會隱藏資料夾檔案，可點擊後找到隱藏項目進行勾選，就可以看到隱藏的git資料夾。</li>
+</ul>
+</li>
+<li><p>…or push an existing repository from the command line</p>
+<ul>
+<li><p>git remote add origin <a href="mailto:&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#109;">&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#x63;&#111;&#109;</a>:sammy/my-new-project.git</p>
+</li>
+<li><p>出現 Git error - Fatal: remote origin already exist</p>
+</li>
+<li><p>Change remote URL to new GitHub repo:</p>
+</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li>解決方法: git remote set-url origin <a href="https://github.com/USERNAME/REPOSITORY.git">https://github.com/USERNAME/REPOSITORY.git</a><ul>
+<li>參考資源: <a href="https://stackoverflow.com/questions/53952031/unable-to-add-project-to-github-repository">https://stackoverflow.com/questions/53952031/unable-to-add-project-to-github-repository</a></li>
+<li><a href="https://www.datree.io/resources/git-error-fatal-remote-origin-already-exists">https://www.datree.io/resources/git-error-fatal-remote-origin-already-exists</a></li>
+</ul>
+</li>
+</ul>
+<ol start="4">
+<li>按指令推上去，GitHub Pages 設置網頁</li>
+</ol>
+<p>(二)上傳路徑 gh-pages</p>
+<ol>
+<li>git branch gh-pages 建立分支 gh-pages</li>
+<li>git checkout gh-pages 切換進入到分支 gh-pages</li>
+<li>git push origin gh-pages 把儲存庫推送到 gh-pages 分支上</li>
+<li>網頁頁面渲染會等比較久</li>
+<li>git push origin gh-pages 推送更新檔案</li>
+</ol>
+<h3 id="狀況題"><a href="#狀況題" class="headerlink" title="狀況題"></a>狀況題</h3><p>(一) git add .後，希望某個檔案不要加入追蹤</p>
+<ul>
+<li><p><code>git reset HEAD 檔案名稱</code><br>將這個檔案從暫存索引中移除，待會不會被Commit出去。</p>
+</li>
+<li><p><code>git reset HEAD</code><br>將所有檔案從暫存索引中移除，取消進入追蹤。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>工具學習</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+        <tag>Git</tag>
+        <tag>Github Page</tag>
       </tags>
   </entry>
 </search>
